@@ -54,6 +54,7 @@ To check is the new users has .ssh file command *`sudo ls -la /home/Mary`* is us
 On a diferent terminal,**(git bash in vscode)** a .pem file **auxproject.pem** in **C:\Users\USER\Downloads directory** in my local computer, is created and the private ki is copied into it using *`vi auxproject.pem`* 
 Access User **Mary & Megan** as and example via the terminal using a split windoe, acces **C:\Users\USER\Downloads** directory where the newly created file **"auxproject.pem key"** is saved. 
 To access user Mary via the ssh the following command was used *`ssh -i "auxproject.pem" Mary@ec2-13-40-82-26.eu-west-2.compute.amazonaws.com`*
+
 ![Mary](./Aux_Project1%20Images/Mary.PNG)]
 ![Mary](./Aux_Project1%20Images/Mary1.PNG)
 ![Megan](./Aux_Project1%20Images/Megan.PNG)
