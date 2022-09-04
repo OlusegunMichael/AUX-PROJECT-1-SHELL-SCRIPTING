@@ -37,6 +37,7 @@ The created shell script newusers.sh is opened in vi editor  *`vi newusers.sh`*
 The file is made executable by setting Permission with  *`chmod +x newusers.sh.sh`*
 
 ![chmod](./Aux_Project1%20Images/chmod.PNG)
+
 The executable script is ran using  *`sudo ./newusers.sh`*
 
 To View the created user and confirm they have been added to the home directory and assigned to group developers *`ls -la /home`* command is used.
